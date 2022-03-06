@@ -1,0 +1,119 @@
+  
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 40vh;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  footer {
+    position: relative;
+    width: 100%;
+    background: #45484d;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .social {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .social li {
+    list-style: none;
+  }
+  
+  .social li a {
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  
+  .social li a:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  .menu li a {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    opacity: 0.75;
+  }
+  .menu li a:hover {
+    opacity: 1;
+  }
+  
+  p {
+    color:#fafafa;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  h5{
+    color: black;
+  }
+ .carousel-item{
+   height: 90vh;
+   min-height: 300px;
+   opacity: 0.8;
+ }
+
+ .paraa{
+   color:black;
+ }
+
+ .card-body{
+   text-align: center;
+   background-color: rgb(185, 103, 233);
+
+ }
+ .Middle-Container{
+   padding-top: 30px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+ @media (max-width:600px) {
+  .carousel-item{
+   height: 50vh;
+    min-height: 300px;
+    opacity: 0.8;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 40vh;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+ }
